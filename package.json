@@ -1,0 +1,19 @@
+{
+  "name": "canvasresize",
+  "version": "1.2.0",
+  "description": "Canvas resize lib",
+  "main": "canvasResize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebbdk/canvasResize.git"
+  },
+  "author": "gokercebeci, sebbdk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebbdk/canvasResize/issues"
+  },
+  "homepage": "https://github.com/sebbdk/canvasResize#readme"
+}
