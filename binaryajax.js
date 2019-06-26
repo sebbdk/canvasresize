@@ -254,6 +254,9 @@ var BinaryAjax = (function() {
 
 }());
 
+window.BinaryFile = BinaryFile;
+window.BinaryAjax = BinaryAjax;
+
 /*
  document.write(
  "<script type='text/vbscript'>\r\n"
