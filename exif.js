@@ -638,3 +638,5 @@ var EXIF = (function() {
     };
 
 })();
+
+window.EXIF= EXIF;
