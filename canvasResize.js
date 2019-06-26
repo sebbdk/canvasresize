@@ -251,8 +251,8 @@
 
                 var dataURL = e.target.result;
                 var byteString = atob(dataURL.split(',')[1]);
-                var binary = new BinaryFile(byteString, 0, byteString.length);
-                var exif = EXIF.readFromBinaryFile(binary);
+                var binary = new window.BinaryFile(byteString, 0, byteString.length);
+                var exif = window.EXIF.readFromBinaryFile(binary);
 
                 var img = new Image();
                 img.onload = function(e) {
@@ -312,7 +312,6 @@
                     newctx = newcanvas.getContext('2d');
                     newctx.drawImage(canvas, x, y, width, height);
 
-                    console.log(file, file.type);
                     if (file.type === "image/png") {
                         var data = newcanvas.toDataURL(file.type);
                     } else {
